@@ -1,11 +1,19 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+.nav{
+    margin:0;
+    padding:0;
+}
 .navbar.navbar-default {
     background-color: rgb(148, 147, 147);
     border-radius: 0;
     border: 1px solid black;
-    padding-top:20px
+    padding-top:20px;
 }
 .navbar-default .navbar-brand h1{
     padding-left:0px;
@@ -32,9 +40,8 @@
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 }
-  
+
 #nav-list li {
-    box-sizing: border-box;
     border: 1px solid black;
 }
 #nav-list a{
