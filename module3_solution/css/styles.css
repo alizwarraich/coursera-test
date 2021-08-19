@@ -1,0 +1,68 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar.navbar-default {
+    background-color: rgb(148, 147, 147);
+    border-radius: 0;
+    border: 1px solid black;
+    padding-top:20px
+}
+.navbar-default .navbar-brand h1{
+    padding-left:0px;
+    padding-top: 0px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.75em;
+    margin-top: 0;
+    margin-left: 30px;
+    line-height: 0;
+}
+.navbar-default .navbar-toggle.collapsed {
+    border-color: black;
+}
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+    background-color: black;
+}
+.navbar-default .navbar-toggle.collapsed:hover,
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+  
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+  
+#nav-list li {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+#nav-list a{
+    color:black;
+    font-weight: bold;
+}
+  
+h2{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+  
+div.section {
+    background-color: rgb(148, 147, 147);
+    padding: 5px 20px 15px 20px;
+    margin-bottom: 20px;
+    color:black;
+}
+h3{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+  
+@media (max-width: 767px) {
+    #collapsable-nav {
+      background-color: white;
+    }
+}
