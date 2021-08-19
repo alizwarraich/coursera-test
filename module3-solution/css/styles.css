@@ -5,6 +5,11 @@
 	margin: 0;
 	padding: 0;
 }
+.section{
+    margin: auto;
+    width:90%;
+    text-align: center;
+}
 .nav{
     margin:0;
     padding:0;
@@ -27,6 +32,8 @@
 }
 .navbar-default .navbar-toggle.collapsed {
     border-color: black;
+    margin-top: 0px;
+    margin-right: 30px;
 }
 .navbar-default .navbar-toggle.collapsed .icon-bar {
     background-color: black;
@@ -34,6 +41,8 @@
 .navbar-default .navbar-toggle.collapsed:hover,
 .navbar-default .navbar-toggle {
     border-color: white;
+    margin-top: 0px;
+    margin-right: 30px;
 }
   
 .navbar-default .navbar-toggle:hover .icon-bar,
